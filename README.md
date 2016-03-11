@@ -2,14 +2,14 @@
 
 1. SQUEEZELITE INSTALLIEREN
 ---------------------------
-<pre>
-- SSH Login zum Openelec (User:root / Passwort: openelec)
-- mkdir /storage/.kodi/userdata/squeezelite
-- cd /storage/.kodi/userdata/squeezelite
-- wget https://github.com/Moalti/Squeezelite-on-Openelec/blob/master/squeezelite-1.8.3-715-armv6hf.tar.gz (für RaspberryPi)
-- tar -xzf squeezelite-1.8.3-715-armv6hf.tar.gz
-- chmod u+x squeezelite
-</pre>
+
+`SSH Login zum Openelec (User:root / Passwort: openelec)`
+`mkdir /storage/.kodi/userdata/squeezelite`
+`cd /storage/.kodi/userdata/squeezelite`
+`wget https://github.com/Moalti/Squeezelite-on-Openelec/blob/master/squeezelite-1.8.3-715-armv6hf.tar.gz (für RaspberryPi)`
+`tar -xzf squeezelite-1.8.3-715-armv6hf.tar.gz`
+`chmod u+x squeezelite`
+
 
 HINWEIS: 
 Download-Repo von Ralph Irving. Hier besteht die Möglichkeit neuere Versionen und andere Plattformen von Squeezelite herunterzuladen:
@@ -38,7 +38,7 @@ Startparamter:
  - o Ausgabe Device
  - r Maximal Sample Rate
  - n Name des Squeezebox Player
- - s IP-Adresse des Logitech Media Server`
+ - s IP-Adresse des Logitech Media Server
 </pre>
 
 
