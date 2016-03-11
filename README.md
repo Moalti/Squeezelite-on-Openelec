@@ -34,7 +34,23 @@ Output devices:
 Maximal Sample Rate ermitteln:<br>
 `/storage/.kodi/userdata/squeezelite/squeezelite -d output=debug`
 
-Die Zeile "output_init_common:411 supported rates:" ist interessant. 
+<pre>
+[20:51:23.099236] output_init_alsa:865 init output
+[20:51:23.100201] output_init_alsa:895 requested alsa_buffer: 40 alsa_period: 4 format: any mmap: 1
+[20:51:23.100419] output_init_common:347 outputbuf size: 3528000
+[20:51:23.100834] output_init_common:371 idle timeout: 0
+[20:51:23.143305] output_init_common:411 supported rates: 384000 352800 192000 176400 96000 88200 48000 44100 32000 24000 22500 16000 12000 11025 8000 
+[20:51:23.162866] output_init_alsa:911 memory locked
+[20:51:23.163854] output_thread:664 open output device: default
+[20:51:23.163885] output_init_alsa:934 set output sched fifo rt: 45
+[20:51:23.164203] alsa_open:381 opening device at: 44100
+[20:51:23.168111] alsa_open:432 opened device default using format: S32_LE sample rate: 44100 mmap: 1
+[20:51:23.169308] alsa_open:511 buffer: 40 period: 4 -> buffer size: 1760 period size: 440
+[20:51:23.182427] output_flush:424 flush output buffer
+[20:51:23.184440] output_flush:424 flush output buffer
+</pre>
+
+Die Zeile "output_init_common:411 supported rates:" ist interessant.<br>
 Bei mir ergibt sich eine maximale Sample Rate von 384000. 
 
 Startparamter:<br>
@@ -62,11 +78,12 @@ Autostart von Squeezelite:<br>
 
 (sleep 20; \
 
-exec /storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 8000 -n Schlafzimmer -s 10.10.10.2
+exec /storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2
 
 )&amp;
 </pre>
 
+Hinweis: Die Startparamter in der autostart.sh entsprechend der ermittelten Werte und Wünschen anpassen!!!
 
 
 
