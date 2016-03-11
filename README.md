@@ -1,7 +1,7 @@
 # Squeezelite-on-Openelec (Shared Audio Output)
 
 Howto zum installieren von Squeezelite auf dem RaspberryPi 2 mit Openelec.<br>
-Diese Anleitung lässt sich analog auch auf anderen System anwenden. Dort ist allerdings das seperate laden der ALSO-Treiber nicht notwendig.
+Diese Anleitung lässt sich analog auch auf anderen System anwenden. Dort ist allerdings das seperate laden der ALSA-Treiber nicht notwendig.
 
 1. SQUEEZELITE INSTALLIEREN
 ---
