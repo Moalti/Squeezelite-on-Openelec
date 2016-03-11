@@ -21,7 +21,7 @@ http://thedigitallifestyle.com/w/index.php/2014/05/15/installing-squeezelite-on-
 Squeezelite benötigt auf dem RasberryPi2 den ALSA Treiber. Dieser muss im vorfeld geladen werden:<br>
 `modprobe snd-bcm2835`
 
-Audio-Device wählen:<br>
+<b>Audio-Device wählen:</b><br>
 `aplay -l` oder `/storage/.kodi/userdata/squeezelite/squeezelite –l`
 
 <pre>
@@ -31,7 +31,7 @@ Output devices:
   sysdefault:CARD=ALSA           - bcm2835 ALSA, bcm2835 ALSA - Default Audio Device
 </pre>
 
-Maximal Sample Rate ermitteln:<br>
+<b>Maximal Sample Rate ermitteln:</b><br>
 `/storage/.kodi/userdata/squeezelite/squeezelite -d output=debug`
 
 <pre>
@@ -53,7 +53,7 @@ Maximal Sample Rate ermitteln:<br>
 Die Zeile "output_init_common:411 supported rates:" ist interessant.<br>
 Bei mir ergibt sich eine maximale Sample Rate von 384000. 
 
-Startparamter:<br>
+<b>Startparamter:</b><br>
 `/storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2`
 
 <pre>
@@ -66,7 +66,7 @@ Startparamter:<br>
 3. AUTOSTART
 ---
 
-Autostart von Squeezelite:<br>
+<b>Autostart von Squeezelite:</b><br>
 `cd /storage/.config/`<br>
 `touch autostart.sh`<br>
 `chmod +x autostart.sh`<br>
@@ -83,7 +83,7 @@ exec /storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384
 )&amp;
 </pre>
 
-Hinweis: Die Startparamter in der autostart.sh entsprechend der ermittelten Werte und Wünschen anpassen!!!
+<b>Hinweis:</b> Die Startparamter in der autostart.sh entsprechend der ermittelten Werte und Wünschen anpassen!!!
 
 
 
