@@ -32,13 +32,14 @@ Bei mir ergibt sich eine maximale Sample Rate von 384000.
 
 Startparamter:
 
-```/storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2
+`/storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2`
 
+<pre>
  - o Ausgabe Device
  - r Maximal Sample Rate
  - n Name des Squeezebox Player
  - s IP-Adresse des Logitech Media Server`
-
+</pre>
 
 
 
