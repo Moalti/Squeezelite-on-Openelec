@@ -26,7 +26,7 @@ Die Zeile "output_init_common:411 supported rates:" ist interessant. Bei mir erg
 
 Startparamter:
 - /storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2
- - o Ausgabe Device
+ "- o Ausgabe Device"
  - r Maximal Sample Rate
  - n Name des Squeezebox Player
  - s IP-Adresse des Logitech Media Server
