@@ -47,6 +47,27 @@ Startparamter:<br>
  - s IP-Adresse des Logitech Media Server
 </pre>
 
+3. AUTOSTART
+---
+
+Autostart von Squeezelite:<br>
+`cd /storage/.config/`<br>
+`touch autostart.sh`<br>
+`chmod +x autostart.sh`<br>
+`vi autostart.sh`
+
+<pre>
+#!/bin/sh
+# Start SqueezeLite
+
+(sleep 20; \
+
+exec /storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 8000 -n Schlafzimmer -s 10.10.10.2
+
+)&amp;
+</pre>
+
+
 
 
 
