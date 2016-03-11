@@ -21,10 +21,13 @@ Squeezelite benötigt auf dem RasberryPi2 den ALSA Treiber. Dieser muss im vorfe
 
 `modprobe snd-bcm2835`
 
+
 Maximal Sample Rate ermitteln:
 
 `/storage/.kodi/userdata/squeezelite/squeezelite -d output=debug`
-Die Zeile "output_init_common:411 supported rates:" ist interessant. Bei mir ergibt sich eine maximale Sample Rate von 384000. 
+
+Die Zeile "output_init_common:411 supported rates:" ist interessant. 
+Bei mir ergibt sich eine maximale Sample Rate von 384000. 
 
 Startparamter:
 `/storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2`
