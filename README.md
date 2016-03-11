@@ -4,11 +4,11 @@
 ---------------------------
 
 `SSH Login zum Openelec (User:root / Passwort: openelec)`<br>
-`mkdir /storage/.kodi/userdata/squeezelite`
-`cd /storage/.kodi/userdata/squeezelite`
-`wget https://github.com/Moalti/Squeezelite-on-Openelec/blob/master/squeezelite-1.8.3-715-armv6hf.tar.gz (für RaspberryPi)`
-`tar -xzf squeezelite-1.8.3-715-armv6hf.tar.gz`
-`chmod u+x squeezelite`
+`mkdir /storage/.kodi/userdata/squeezelite`<br>
+`cd /storage/.kodi/userdata/squeezelite`<br>
+`wget https://github.com/Moalti/Squeezelite-on-Openelec/blob/master/squeezelite-1.8.3-715-armv6hf.tar.gz (für RaspberryPi)`<br>
+`tar -xzf squeezelite-1.8.3-715-armv6hf.tar.gz`<br>
+`chmod u+x squeezelite`<br>
 
 
 HINWEIS: 
