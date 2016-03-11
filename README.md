@@ -3,7 +3,7 @@
 1. SQUEEZELITE INSTALLIEREN
 ---------------------------
 
-`SSH Login zum Openelec (User:root / Passwort: openelec)`
+`SSH Login zum Openelec (User:root / Passwort: openelec)`<br>
 `mkdir /storage/.kodi/userdata/squeezelite`
 `cd /storage/.kodi/userdata/squeezelite`
 `wget https://github.com/Moalti/Squeezelite-on-Openelec/blob/master/squeezelite-1.8.3-715-armv6hf.tar.gz (für RaspberryPi)`
