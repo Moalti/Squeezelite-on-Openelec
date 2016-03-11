@@ -18,7 +18,7 @@ http://thedigitallifestyle.com/w/index.php/2014/05/15/installing-squeezelite-on-
 ----------------------------
 
 Squeezelite benötigt auf dem RasberryPi2 den ALSA Treiber. Dieser muss im vorfeld geladen werden:
-- modprobe snd-bcm2835
+modprobe snd-bcm2835
 
 Maximal Sample Rate ermitteln:
 - /storage/.kodi/userdata/squeezelite/squeezelite -d output=debug
@@ -26,7 +26,7 @@ Die Zeile "output_init_common:411 supported rates:" ist interessant. Bei mir erg
 
 Startparamter:
 - /storage/.kodi/userdata/squeezelite/squeezelite -o default:CARD=ALSA -r 384000 -n Schlafzimmer -s 10.10.10.2
- "- o Ausgabe Device"
+ - o Ausgabe Device
  - r Maximal Sample Rate
  - n Name des Squeezebox Player
  - s IP-Adresse des Logitech Media Server
