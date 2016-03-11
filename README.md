@@ -18,7 +18,7 @@ http://thedigitallifestyle.com/w/index.php/2014/05/15/installing-squeezelite-on-
 ----------------------------
 
 Squeezelite benötigt auf dem RasberryPi2 den ALSA Treiber. Dieser muss im vorfeld geladen werden:
-modprobe snd-bcm2835
+`modprobe snd-bcm2835`
 
 Maximal Sample Rate ermitteln:
 - /storage/.kodi/userdata/squeezelite/squeezelite -d output=debug
