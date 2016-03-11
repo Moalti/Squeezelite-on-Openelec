@@ -66,12 +66,24 @@ Bei mir ergibt sich eine maximale Sample Rate von 384000.
 3. AUTOSTART
 ---
 
+<b>ALSA Autostart:</b></br>
+`cd /storage/.config/modules-load.d`</br>
+`touch alsa.conf`<br>
+`vi also.conf`<br>
+
+Folgendes Einfügen:<br>
+<pre>
+snd_bcm2835
+</pre>
+
+
 <b>Autostart von Squeezelite:</b><br>
-`cd /storage/.config/`<br>
+`cd /storage/.config`<br>
 `touch autostart.sh`<br>
 `chmod +x autostart.sh`<br>
-`vi autostart.sh`
+`vi autostart.sh`<br>
 
+Folgendes Einfügen:<br>
 <pre>
 #!/bin/sh
 # Start SqueezeLite
