@@ -16,7 +16,7 @@ Diese Anleitung lässt sich analog auch auf anderen System anwenden. Dort ist al
 HINWEIS: 
 Download-Repo von Ralph Irving.<br> 
 Hier besteht die Möglichkeit neuere Versionen und andere Plattformen von Squeezelite herunterzuladen:<br>
-http://thedigitallifestyle.com/w/index.php/2014/05/15/installing-squeezelite-on-openelec-xbmc-shared-audio-output-device/
+https://www.mediafire.com/folder/lllwjg7xjl1by/linux
 
 2. SQUEEZELITE KONFIGURIEREN
 ---
