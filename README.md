@@ -9,7 +9,7 @@ Diese Anleitung lässt sich analog auch auf anderen System anwenden. Dort ist al
 `SSH Login zum Openelec (User:root / Passwort: openelec)`<br>
 `mkdir /storage/.kodi/userdata/squeezelite`<br>
 `cd /storage/.kodi/userdata/squeezelite`<br>
-`wget https://github.com/Moalti/Squeezelite-on-Openelec/blob/master/squeezelite-1.8.3-715-armv6hf.tar.gz`<br>
+`wget https://github.com/Moalti/Squeezelite-on-Openelec/raw/master/squeezelite-1.8.3-715-armv6hf.tar.gz`<br>
 `tar -xzf squeezelite-1.8.3-715-armv6hf.tar.gz`<br>
 `chmod u+x squeezelite`<br>
 
